@@ -4,6 +4,15 @@ Based on the Ultraworking Work Cycles you can find at https://www.ultraworking.c
 
 Launch a session by using Command Palette and selecting "Start Ultraworking session". Or, use a SmartBlock or SmartBlock button, with the SmartBlock command <%ULTRAWORKING%>.
 
+You could create a SmartBlock as follows:
+```
+- #SmartBlock Start Ultraworking session
+    - <%ULTRAWORKING%>
+```
+
+and even use a button in your daily template like this:
+```{{Start Ultrawork Session:SmartBlock:Start Ultraworking session}}```
+
 The extension will display a series of prompts that ask you to plan what you want to achieve, and note a variety of parameters like how your mood and energy are.
 
 ![image](https://user-images.githubusercontent.com/6857790/200477305-b5d17ea1-e707-4ef4-876e-0af7739b5698.png)
