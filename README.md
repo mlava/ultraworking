@@ -14,6 +14,6 @@ Your first cycle will ask you for how long you wish to focus: this is often 30mi
 
 ![image](https://user-images.githubusercontent.com/6857790/200477422-1aaac2c0-dabf-41d8-a51a-22b11e4e67b2.png)
 
-After that, the extension will prompt you to either complete another work cycle, or finish your Ultraworking session.
+After that, the extension will prompt you to either complete another work cycle, or finish your Ultraworking session. You could complete another session (or more if you like) or complete the post-session guided reflection.
 
 ![image](https://user-images.githubusercontent.com/6857790/200477460-48cd9f4d-58a7-43a1-a72f-215a53560d90.png)
