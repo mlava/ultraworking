@@ -432,6 +432,10 @@ async function prompt(string, type, selectString) {
                         '<input type="text" placeholder="">',
                         "keyup",
                         function (instance, toast, input, e) {
+                            if (e.code === "Enter") {
+                                instance.hide({ transitionOut: "fadeOut" }, toast, "button");
+                                resolve(e.srcElement.value);
+                            }
                         },
                         true,
                     ],
