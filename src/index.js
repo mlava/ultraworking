@@ -317,10 +317,8 @@ async function cycle(currentUID, cycleNumber) {
     let finished = await prompt("Do you want to finish or complete another cycle?", 3)
     if (finished == "another") {
         cycleNumber = parseInt(cycleNumber) + 1;
-        console.info("another", cycleNumber)
         cycle(currentUID, cycleNumber);
     } else if (finished == "finish") {
-        console.info("finish", cycleNumber)
         finishSession(currentUID, cycleNumber);
     }
 }
