@@ -1,5 +1,8 @@
 Start an Ultraworking session and manage it from within Roam Research.
 
+**New:**
+- compatible with Roam Research Hotkeys
+
 Based on the Ultraworking Work Cycles you can find at https://www.ultraworking.com/twg
 
 Launch a session by using Command Palette and selecting "Start Ultraworking session". Or, use a SmartBlock or SmartBlock button, with the SmartBlock command <%ULTRAWORKING%>.
