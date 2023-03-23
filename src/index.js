@@ -33,7 +33,7 @@ let cycleNumber = 1;
 
 export default {
     onload: ({ extensionAPI }) => {
-        window.roamAlphaAPI.ui.commandPalette.addCommand({
+        extensionAPI.ui.commandPalette.addCommand({
             label: "Start Ultraworking session",
             callback: () => {
                 const startBlock = window.roamAlphaAPI.ui.getFocusedBlock()?.["block-uid"];
@@ -63,10 +63,6 @@ export default {
         }
     },
     onunload: () => {
-        window.roamAlphaAPI.ui.commandPalette.removeCommand({
-            label: 'Start Ultraworking session'
-        });
-
         if (window.roamjs?.extension?.smartblocks) {
             window.roamjs.extension.smartblocks.unregisterCommand("ULTRAWORKING");
         };
